@@ -1,18 +1,19 @@
 # Contact Book Project
 
-این پروژه یک برنامه تماس است که با استفاده از SQLite برای ذخیره مخاطبین و Rich برای رابط کاربری متنی ساخته شده است.
+This project is a contact book application built using SQLite for storing contacts and Rich for the text-based user interface.
 
-## ویژگی‌ها:
-- افزودن مخاطب (شامل نام، ایمیل، و تلفن)
-- جستجوی مخاطب بر اساس نام و شماره تلفن
-- نمایش تمام مخاطبین
+## Features:
+- Add a contact (including name, email, and phone number)
+- Search contacts by name and phone number
+- Display all contacts
 
-## نحوه استفاده:
-1. برنامه را اجرا کنید.
-2. از منو گزینه‌ها را انتخاب کنید.
-3. مخاطب جدید اضافه کنید یا مخاطبین را جستجو کنید.
+## How to Use:
+1. Run the application.
+2. Select options from the menu.
+3. Add a new contact or search contacts.
 
-## نصب:
-1. برای اجرای پروژه نیاز به نصب کتابخانه‌های `sqlite3` و `rich` دارید.
-2. می‌توانید از دستور زیر برای نصب استفاده کنید:
+## Installation:
+1. You need to install the `sqlite3` and `rich` libraries to run the project.
+2. You can install them using the following command:
+```bash
 pip install sqlite3 rich
